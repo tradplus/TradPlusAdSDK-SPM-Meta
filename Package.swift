@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.3
 
 import PackageDescription
 
@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.13.0")
+            .exact("15.14.0")
         ),
         .package(
             url: "https://github.com/facebook/FBAudienceNetwork.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPFacebookAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Meta/releases/download/15.13.0/TPFacebookAdapter-15.13.0.xcframework.zip",
-            checksum: "68aa7dbd9a7c0ced046156505b8d6ce84038a0aab2ce4f3f84ef544998652fca"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Meta/releases/download/15.14.0/TPFacebookAdapter-15.14.0.xcframework.zip",
+            checksum: "15c3d3ae24cd4b42c07db2e5c6bbe74712fb02349ae30b0ed0eb0f119af74df7"
         ),
     ]
 )
