@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.15.0")
+            .exact("15.16.0")
         ),
         .package(
             url: "https://github.com/facebook/FBAudienceNetwork.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPFacebookAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Meta/releases/download/15.15.0/TPFacebookAdapter-15.15.0.xcframework.zip",
-            checksum: "621946739cbbd5d0f2951458f6aadf83c832c72a29447a577ba5a791aee5bb0a"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Meta/releases/download/15.16.0/TPFacebookAdapter-15.16.0.xcframework.zip",
+            checksum: "08826eab113372c7c0b3e709208f13a6d03b610c5dc4bd6776949f82d24e30cd"
         ),
     ]
 )
